@@ -20,9 +20,8 @@ body {
 h1 {
     background-color: var(--primary);
     text-align: center;
-    margin-top: 0vh;
-    margin-bottom: 2vh;
-    padding: 1rem;
+    margin-top: 0rem;
+   
 }
 
 main {
@@ -33,20 +32,19 @@ main {
 
 textarea {
     box-sizing: border-box;
-    width: 90%;
+    display: block;
+    width: 100%;
     min-height: 20vh;
-    max-height: 20vh;
+    margin-top: 2rem;
     font-size: large;
     font-family: inherit;
-    border: solid var(--black);
-    padding: 1rem;
 }
 
 button {
     background-color: var(--primary);
     border: none;
-    margin: 1vh;
-    padding: 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
     font-family: 'Open Sans', sans-serif;
     font-size: large;
 }

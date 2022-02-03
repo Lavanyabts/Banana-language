@@ -45,8 +45,8 @@ textarea {
 button {
     background-color: var(--primary);
     border: none;
-    margin: 2vh;
-    padding: 2rem;
+    margin: 1vh;
+    padding: 1rem;
     font-family: 'Open Sans', sans-serif;
     font-size: large;
 }

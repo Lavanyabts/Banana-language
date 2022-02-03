@@ -34,11 +34,12 @@ main {
 textarea {
     box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 80%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    padding: 15px;
 }
 
 button {
@@ -77,6 +78,6 @@ footer p {
     border: 1px solid black;
     width: 80%;
     height: 3vh;
-    margin: 0vh;
+    margin: auto;
     padding: 1px;
 }

@@ -15,9 +15,9 @@ function errorHandler(error) {
 
 function clickHandler()
  {
-     var inputText = txtInput.Value;
+     var inputText = txtInput.value;
 
-     fetch(getTranslationURL(Text))
+     fetch(getTranslationURL(inputText))
      .then(response => response.json())
      .then(json => {
          var translatedText = json.contents.translated;

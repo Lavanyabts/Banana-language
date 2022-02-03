@@ -35,11 +35,12 @@ textarea {
     box-sizing: border-box;
     display: block;
     width: 80%;
+    margin: auto;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
-    padding: 15px;
+    padding: 15px
 }
 
 button {
@@ -75,9 +76,10 @@ footer p {
 }
 
 #output {
+  margin: auto;
     border: 1px solid black;
     width: 80%;
     height: 3vh;
-    margin: auto;
+    /* margin: 0vh; */
     padding: 1px;
 }

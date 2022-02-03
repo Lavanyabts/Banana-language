@@ -22,6 +22,7 @@ h1 {
     text-align: center;
     margin-top: 0vh;
     margin-bottom: 2vh;
+    padding: 1rem;
 }
 
 main {
@@ -77,6 +78,6 @@ footer p {
     border: 2px solid black;
     width: 80%;
     height: 3vh;
-    margin: 2vh;
+    margin: 0vh;
     padding: 3px;
 }
